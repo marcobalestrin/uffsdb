@@ -716,6 +716,7 @@ void printConsulta(Lista *p,Lista *l){
     printf("\n");
   }
   printf("\n %d Linha%s.\n",l->tam,l->tam == 1 ? "" : "s");
+  p=NULL;
 }
 
 void adcResultado(Lista *resultado,Lista *tupla,char *pertence){
