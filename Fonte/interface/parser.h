@@ -48,6 +48,14 @@ Adciona a lista de colunas da projeção de um select.
 */
 void adcProjSelect(char *col);
 
+void beginTransaction() ;
+
+void endTransaction() ;
+
+void commitTransaction() ;
+
+void rollbackTransaction() ;
+
 /* Função padrão do yacc chamada quando um erro sintático é
  * identificado.
  */
