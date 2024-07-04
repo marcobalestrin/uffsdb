@@ -111,6 +111,11 @@ char retornaTamanhoTipoDoCampo(char *nomeCampo, table  *tab);
  */
 void printTable(char *);
 ///
+
+void verificaTabela(int sel);
+void criaShadow(char *, int sel);
+void removeShadow();
+void removeShadow2(char *);
 void freeTp_table(tp_table **, int );
 void freeTable(table *);
 void freeColumn(column *);
